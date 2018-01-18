@@ -1,0 +1,109 @@
+body {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    background: #4de5f9; /* Old browsers */
+    background: -moz-linear-gradient(left, #4de5f9 0%, #fff60a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #4de5f9 0%,#fff60a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #4de5f9 0%,#fff60a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4de5f9', endColorstr='#fff60a',GradientType=1 ); /* IE6-9 */
+}
+
+body#pray-body {
+    background: -moz-linear-gradient(left, #e24493 0%, #fff60a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #e24493 0%,#fff60a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #e24493 0%,#fff60a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e24493', endColorstr='#fff60a',GradientType=1 ); /* IE6-9 */
+}
+
+body#new-body {
+    background: -moz-linear-gradient(left, #57bf3b 0%, #fff60a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #57bf3b 0%,#fff60a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #57bf3b 0%,#fff60a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57bf3b', endColorstr='#fff60a',GradientType=1 ); /* IE6-9 */
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+a, a:visited, a:active {
+    color: white;
+}
+
+.content-wrapper {
+    height: 82vh;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+}
+
+.header {
+
+}
+
+.header a {
+    display: none;
+}
+
+.pyramid-container {
+    height: 400px;
+}
+
+.pyramid {
+    width: 250px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#eye {
+
+    /* animation-name: float;
+    animation-direction: alternate-reverse; */
+}
+
+#eye path {
+    fill: black;
+}
+
+@keyframes float {
+    from {
+        margin-top: 100px;
+    }
+
+    to {
+        margin-top: 150px;
+    }
+}
+
+.link-container {
+    width: 100%;
+}
+
+.a-button {
+    width: 60%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    font-size: 32px;
+
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+    cursor: pointer;
+}
+
+.a-button:hover {
+    color: #666;
+    background-color: white;
+}

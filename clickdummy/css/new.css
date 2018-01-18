@@ -1,0 +1,12 @@
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid #f7eaef;
+    background-color: transparent;
+}

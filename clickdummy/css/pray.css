@@ -1,0 +1,38 @@
+#pray-wrapper {
+    background-color: transparent;
+}
+
+.prayer-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+    font-family: 'Loral', serif;
+}
+
+.prayer-text {
+    font-size: 40px;
+    text-align: center;
+}
+
+.prayer-reference {
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.pray-button-container {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.pray-button-container .a-button {
+    display: inline-block !important;
+}
+
+.pray-button-container span {
+    font-size: 28px;
+    margin: 20px;
+    font-weight: 600;
+}
